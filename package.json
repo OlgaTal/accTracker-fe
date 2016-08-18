@@ -1,10 +1,10 @@
 {
-  "name": "template",
+  "name": "accidentTracker",
   "version": "1.0.3",
   "scripts": {
     "dev": "PORT=3333 node server/index.js"
   },
-  "author": "Chyld Medford",
+  "author": "Olga & Rich J.",
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.11.4",

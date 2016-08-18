@@ -13,13 +13,16 @@ export default () => (
           <span className="icon-bar" />
           <span className="icon-bar" />
         </button>
-        <a className="navbar-brand" href="#">ChangeMe</a>
+        <a className="navbar-brand" href="#">Accident Tracker</a>
       </div>
 
       <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul className="nav navbar-nav" />
         <ul className="nav navbar-nav navbar-right">
           <li><Link to="/"><i className="fa fa-home fa-fw" /> Home</Link></li>
+          <li><Link to="/drivers"><i className="fa fa-home fa-fw" /> Drivers </Link></li>
+          <li><Link to="/cars"><i className="fa fa-home fa-fw" /> Cars</Link></li>
+          <li><Link to="/claims"><i className="fa fa-home fa-fw" /> Claims</Link></li>
           <li><Link to="/about"><i className="fa fa-hashtag fa-fw" /> About</Link></li>
           <li><Link to="/faq"><i className="fa fa-question-circle-o fa-fw" /> Faq</Link></li>
         </ul>
